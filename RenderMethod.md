@@ -69,7 +69,7 @@ SSRはインタラクティブなイベントがあったときに、都度サ�
     * `<Suspense component={<Loading />} ></Suspense>` みたいなやつ
   * island architecture にも関係する
 
-## ISR: Incremental Static Regeneration
+### ISR: Incremental Static Regeneration
 
 * 定期的にサーバ側でデータをフェッチして最新のhtml に置き換えておく
 * SSG の挙動に加えて、一定時間ごとにバックグラウンドでデータの再取得およびページの再レンダリングを行い、HTML を再生成 (regenerate) する手法
